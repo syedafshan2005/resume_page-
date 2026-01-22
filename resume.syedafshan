@@ -1,0 +1,117 @@
+
+Html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #0a66c2;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #0a66c2;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #e6f0fa;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            background: #222;
+            color: white;
+        }
+
+        a {
+            color: #0a66c2;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>syed Afshan</h1>
+        <p>BCA Student | Software Developer</p>
+    </header>
+
+    <!-- About -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a BCA student with interest in web development and programming.
+            I am eager to learn new technologies and build real-world projects.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>Python</span>
+            <span>JavaScript (Basics)</span>
+            <span>SQL</span>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Personal Portfolio Website</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="syedafshan2005@gmail.com"></a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/https://www.linkedin.com/in/syed-afshan-857480376</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 syed afshan | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
